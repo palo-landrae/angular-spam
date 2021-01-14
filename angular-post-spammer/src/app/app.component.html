@@ -13,7 +13,7 @@
 </form>
 <ul>
   <li *ngFor="let article of articles">
-    <app-spam-printer></app-spam-printer>
+    <app-spam-printer [article]="article"></app-spam-printer>
   </li>
 </ul>
 

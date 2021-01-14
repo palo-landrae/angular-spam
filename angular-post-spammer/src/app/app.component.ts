@@ -12,7 +12,7 @@ export class AppComponent {
     console.log(`spamText: ${text.value} and spamNum: ${num.value}`);
     for(let i:number =0; i< cont; i++)  //Ciclo For in typescript
     {
-      this.articles.push(text.value);
+      this.articles.push(i + " " + text.value);
     }
     return false;
   }
